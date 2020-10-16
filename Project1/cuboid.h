@@ -5,8 +5,8 @@ class cuboid :
 {
 public:
     float m_height;
-    
-    
+
+
     cuboid(const float& n_width, const float& n_length, const float& n_height);
     cuboid();
 

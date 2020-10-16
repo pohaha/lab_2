@@ -5,10 +5,7 @@ enum REPLY
 };
 class rectangle
 {
-protected:
-	static int element_count;
 public:
-	int objectNumber;
 	float m_width=0;
 	float m_length=0;
 
@@ -20,6 +17,5 @@ public:
 	virtual void GetDiag();
 	virtual void GetPerimetr();
 	virtual float GetSpace(REPLY hasReply);
-
 };
 
