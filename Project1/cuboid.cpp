@@ -38,9 +38,10 @@ float cuboid::GetSpace(REPLY hasReply = NO_REPLY)
 	return 2 * m_width * m_length + 2 * m_width * m_height + 2 * m_length * m_height;
 }
 
-cuboid::cuboid(): rectangle()
+cuboid::cuboid(bool that): rectangle(false)
 {
 	std::cout<<"input the height: ";
 	std::cin >> m_height;
+	if(that) std::cout << std::endl;
 }
 

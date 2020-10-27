@@ -10,7 +10,7 @@ public:
 	float m_length=0;
 
 	rectangle(const float& n_width, const float& n_length);
-	rectangle();
+	rectangle(bool that=true);
 
 
 	virtual void GetSize();

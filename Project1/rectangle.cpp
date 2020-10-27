@@ -32,11 +32,12 @@ rectangle::rectangle(const float& n_width, const float& n_length):
 {
 }
 
-rectangle::rectangle()
+rectangle::rectangle(bool that)
 {
 	std::cout << "input the width: ";
 	std::cin >> m_width;
 	std::cout << "input the length: ";
 	std::cin >> m_length;
+	if (that) std::cout << std::endl;
 }
 

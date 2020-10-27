@@ -8,7 +8,7 @@ public:
 
 
     cuboid(const float& n_width, const float& n_length, const float& n_height);
-    cuboid();
+    cuboid(bool that=true);
 
     float GetVolume();
 
